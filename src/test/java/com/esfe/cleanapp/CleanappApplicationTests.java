@@ -10,4 +10,5 @@ class CleanappApplicationTests {
 	void contextLoads() {
 	}
 
+
 }

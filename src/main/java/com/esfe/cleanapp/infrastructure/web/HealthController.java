@@ -25,4 +25,5 @@ public class HealthController {
         boolean ok = health.isHealthy();
         return ResponseEntity.ok(Map.of("healthy", ok));
     }
+
 }

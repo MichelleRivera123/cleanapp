@@ -24,4 +24,5 @@ public class CheckDbHealthService implements CheckDbHealthUseCase {
             return false;
         }
     }
+
 }

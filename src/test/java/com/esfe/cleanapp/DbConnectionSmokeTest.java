@@ -25,4 +25,5 @@ class DbConnectionSmokeTest {
                 "BD no respondió a SELECT 1; revisa credenciales/SSL/red."
         );
     }
+
 }

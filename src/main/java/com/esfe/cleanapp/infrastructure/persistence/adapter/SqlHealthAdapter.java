@@ -22,5 +22,6 @@ public class SqlHealthAdapter implements SqlHealthPort {
              ResultSet rs = s.executeQuery("SELECT 1")) {
             return rs.next() && rs.getInt(1) == 1;
         }
+
     }
 }
